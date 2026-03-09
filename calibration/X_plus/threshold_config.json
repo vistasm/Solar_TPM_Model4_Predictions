@@ -1,0 +1,8 @@
+{
+  "strategy": "Baseline",
+  "thresholds": {
+    "LOW": 0.95,
+    "MEDIUM": 0.976716160774231,
+    "HIGH": 0.9952161312103271
+  }
+}
