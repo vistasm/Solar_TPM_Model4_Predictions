@@ -13,7 +13,7 @@
   "model_training_date": "2026-03-09",
   "data_source": "NRT",
   "environment": {
-    "inference_code_hash": "git:a420708",
+    "inference_code_hash": "git:db3ef43",
     "python_version": "3.12.3",
     "step0_artifact_check": "PASSED"
   },
@@ -25,9 +25,9 @@
     "donki_lookback_days": 30,
     "donki_flares_fetched": 21,
     "donki_net_new": 0,
-    "donki_query_time_utc": "2026-03-10T03:19:50.818679",
+    "donki_query_time_utc": "2026-03-10T05:20:23.636593",
     "donki_max_peakTime_seen_utc": "2026-03-08 15:07:00",
-    "donki_effective_lag_hours": 36.21,
+    "donki_effective_lag_hours": 38.22,
     "donki_max_gap_days": 389
   },
   "nrt_prefilter": {
@@ -40,9 +40,9 @@
   },
   "persistence_status": {
     "strategy": "dynamic_best_available",
-    "donki_query_time_utc": "2026-03-10T03:19:50.818679",
+    "donki_query_time_utc": "2026-03-10T05:20:23.636593",
     "donki_max_peakTime_seen_utc": "2026-03-08 15:07:00",
-    "donki_effective_lag_hours": 36.21,
+    "donki_effective_lag_hours": 38.22,
     "effective_same_ar_coverage_hours": 0,
     "lag_bucket": "OK",
     "global_persistence": "DONKI_best_available",
@@ -53,7 +53,7 @@
       "14384": 0,
       "14385": 0
     },
-    "actual_lag_hours_best": 197.5,
+    "actual_lag_hours_best": 199.5,
     "backtest_lag_guarantee_hours": 48
   },
   "tiers": {
