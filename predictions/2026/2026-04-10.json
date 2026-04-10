@@ -1,0 +1,353 @@
+{
+  "prediction_date": "2026-04-10",
+  "asof_date": "2026-04-09",
+  "target_date": "2026-04-10",
+  "status": "SUCCESS",
+  "prediction_window": {
+    "start": "2026-04-10T06:00:00Z",
+    "end": "2026-04-11T06:00:00Z",
+    "type": "Option C (rolling 06:00 UTC)"
+  },
+  "model_name": "Model 4 (Ranger)",
+  "model_version": "v3.0.17",
+  "model_training_date": "2026-04-01",
+  "data_source": "NRT",
+  "environment": {
+    "inference_code_hash": "git:4311417",
+    "python_version": "3.12.3",
+    "step0_artifact_check": "PASSED"
+  },
+  "gap_repair_stats": {
+    "nrt_sharp_lookback_days": 30,
+    "nrt_sharp_rows_fetched": 376,
+    "nrt_sharp_net_new": 14,
+    "nrt_sharp_max_gap_days": 1,
+    "donki_lookback_days": 30,
+    "donki_flares_fetched": 27,
+    "donki_net_new": 1,
+    "donki_query_time_utc": "2026-04-10T05:20:24.765273",
+    "donki_max_peakTime_seen_utc": "2026-04-09 08:45:00",
+    "donki_effective_lag_hours": 20.59,
+    "donki_max_gap_days": 389
+  },
+  "nrt_prefilter": {
+    "total_nrt_patches": 14,
+    "passed_filter": 14,
+    "rejected_filter": 0,
+    "filter_criteria": "R_VALUE_max > 0 OR USFLUX_mean >= 1e+20",
+    "noaa_numbered_scored": 5,
+    "non_noaa_scored": 9
+  },
+  "persistence_status": {
+    "strategy": "dynamic_best_available",
+    "donki_query_time_utc": "2026-04-10T05:20:24.765273",
+    "donki_max_peakTime_seen_utc": "2026-04-09 08:45:00",
+    "donki_effective_lag_hours": 20.59,
+    "effective_same_ar_coverage_hours": 15.4,
+    "lag_bucket": "FRESH",
+    "global_persistence": "DONKI_best_available",
+    "same_ar_persistence": "DONKI_best_available",
+    "same_ar_flares_found": {
+      "14405": 0,
+      "14409": 1,
+      "14411": 0,
+      "14412": 0,
+      "14414": 0
+    },
+    "actual_lag_hours_best": 20.6,
+    "backtest_lag_guarantee_hours": 48
+  },
+  "tiers": {
+    "M_plus": {
+      "tier": "M+",
+      "threshold": 0.8129,
+      "threshold_strategy": "Fixed",
+      "global_alert": false,
+      "n_ar_alerts": 0,
+      "n_patches_scored": 14,
+      "max_probability": 0.4677,
+      "mean_probability": 0.0587,
+      "ar_alerts": [],
+      "all_probabilities": [
+        {
+          "noaa_ar": 14409,
+          "harpnum": 13408,
+          "probability": 0.4677,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 14405,
+          "harpnum": 13392,
+          "probability": 0.1026,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 14414,
+          "harpnum": 13432,
+          "probability": 0.1002,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13435,
+          "probability": 0.0624,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13422,
+          "probability": 0.0303,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 14412,
+          "harpnum": 13425,
+          "probability": 0.0147,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13429,
+          "probability": 0.0107,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13434,
+          "probability": 0.0075,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13427,
+          "probability": 0.0071,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13437,
+          "probability": 0.0056,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13431,
+          "probability": 0.004,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13430,
+          "probability": 0.0034,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13438,
+          "probability": 0.0032,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 14411,
+          "harpnum": 13420,
+          "probability": 0.0017,
+          "alert": 0
+        }
+      ]
+    },
+    "M5_plus": {
+      "tier": "M5+",
+      "threshold": 0.9935,
+      "threshold_strategy": "Fixed",
+      "global_alert": false,
+      "n_ar_alerts": 0,
+      "n_patches_scored": 14,
+      "max_probability": 0.1734,
+      "mean_probability": 0.027,
+      "ar_alerts": [],
+      "all_probabilities": [
+        {
+          "noaa_ar": 14409,
+          "harpnum": 13408,
+          "probability": 0.1734,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13435,
+          "probability": 0.1387,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 14405,
+          "harpnum": 13392,
+          "probability": 0.0411,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 14414,
+          "harpnum": 13432,
+          "probability": 0.0133,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13422,
+          "probability": 0.0084,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 14412,
+          "harpnum": 13425,
+          "probability": 0.0013,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13437,
+          "probability": 0.0003,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13427,
+          "probability": 0.0003,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13429,
+          "probability": 0.0002,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13431,
+          "probability": 0.0002,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 14411,
+          "harpnum": 13420,
+          "probability": 0.0001,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13434,
+          "probability": 0.0001,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13430,
+          "probability": 0.0001,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13438,
+          "probability": 0.0,
+          "alert": 0
+        }
+      ]
+    },
+    "X_plus": {
+      "tier": "X+",
+      "threshold": 0.9727,
+      "threshold_strategy": "Baseline",
+      "global_alert": false,
+      "n_ar_alerts": 0,
+      "n_patches_scored": 14,
+      "max_probability": 0.4587,
+      "mean_probability": 0.1547,
+      "ar_alerts": [],
+      "all_probabilities": [
+        {
+          "noaa_ar": 14409,
+          "harpnum": 13408,
+          "probability": 0.4587,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13435,
+          "probability": 0.3154,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 14405,
+          "harpnum": 13392,
+          "probability": 0.2966,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 14414,
+          "harpnum": 13432,
+          "probability": 0.2122,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13422,
+          "probability": 0.1938,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 14412,
+          "harpnum": 13425,
+          "probability": 0.1436,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13429,
+          "probability": 0.0952,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13434,
+          "probability": 0.0799,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13427,
+          "probability": 0.0714,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13438,
+          "probability": 0.0636,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13431,
+          "probability": 0.0614,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 14411,
+          "harpnum": 13420,
+          "probability": 0.0605,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13437,
+          "probability": 0.0601,
+          "alert": 0
+        },
+        {
+          "noaa_ar": 0,
+          "harpnum": 13430,
+          "probability": 0.0538,
+          "alert": 0
+        }
+      ]
+    }
+  }
+}
