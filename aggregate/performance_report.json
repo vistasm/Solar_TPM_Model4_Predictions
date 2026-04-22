@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-04-21T05:20:35Z",
+    "generated_at": "2026-04-22T05:20:30Z",
     "model_name": "Model 4 (Ranger)",
     "model_version": "v3.0.17",
     "windows": [
@@ -35,9 +35,9 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-04-17"
+      "end": "2026-04-18"
     },
-    "n_days_verified": 39
+    "n_days_verified": 40
   },
   "summary": {
     "M_plus": {
@@ -205,20 +205,20 @@
           "hits": 1,
           "false_alarms": 1,
           "misses": 11,
-          "true_negatives": 26
+          "true_negatives": 27
         },
         "metrics": {
           "precision": 0.5,
           "recall": 0.0833,
           "f1_score": 0.1429,
-          "far": 0.037,
-          "lift": 1.62,
-          "alert_rate": 0.0513
+          "far": 0.0357,
+          "lift": 1.67,
+          "alert_rate": 0.05
         },
         "totals": {
-          "n_predictions": 39,
+          "n_predictions": 40,
           "n_events": 12,
-          "base_rate": 0.307692
+          "base_rate": 0.3
         }
       },
       "M5_plus": {
@@ -226,7 +226,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 2,
-          "true_negatives": 37
+          "true_negatives": 38
         },
         "metrics": {
           "precision": 0,
@@ -237,9 +237,9 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 39,
+          "n_predictions": 40,
           "n_events": 2,
-          "base_rate": 0.051282
+          "base_rate": 0.05
         }
       },
       "X_plus": {
@@ -247,20 +247,20 @@
           "hits": 0,
           "false_alarms": 1,
           "misses": 1,
-          "true_negatives": 37
+          "true_negatives": 38
         },
         "metrics": {
           "precision": 0.0,
           "recall": 0.0,
           "f1_score": 0,
-          "far": 0.0263,
+          "far": 0.0256,
           "lift": 0,
-          "alert_rate": 0.0256
+          "alert_rate": 0.025
         },
         "totals": {
-          "n_predictions": 39,
+          "n_predictions": 40,
           "n_events": 1,
-          "base_rate": 0.025641
+          "base_rate": 0.025
         }
       }
     }
