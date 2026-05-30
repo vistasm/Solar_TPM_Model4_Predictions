@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-05-29T05:20:27Z",
+    "generated_at": "2026-05-30T05:20:32Z",
     "model_name": "Model 4 (Ranger)",
     "model_version": "v3.0.17",
     "windows": [
@@ -35,9 +35,9 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-05-25"
+      "end": "2026-05-26"
     },
-    "n_days_verified": 77
+    "n_days_verified": 78
   },
   "summary": {
     "M_plus": {
@@ -74,12 +74,12 @@
         "confusion_matrix": {
           "hits": 0,
           "false_alarms": 0,
-          "misses": 1,
-          "true_negatives": 3
+          "misses": 0,
+          "true_negatives": 4
         },
         "metrics": {
           "precision": 0,
-          "recall": 0.0,
+          "recall": 0,
           "f1_score": 0,
           "far": 0.0,
           "lift": 0,
@@ -87,8 +87,8 @@
         },
         "totals": {
           "n_predictions": 4,
-          "n_events": 1,
-          "base_rate": 0.25
+          "n_events": 0,
+          "base_rate": 0.0
         }
       },
       "M5_plus": {
@@ -205,20 +205,20 @@
           "hits": 6,
           "false_alarms": 2,
           "misses": 18,
-          "true_negatives": 51
+          "true_negatives": 52
         },
         "metrics": {
           "precision": 0.75,
           "recall": 0.25,
           "f1_score": 0.375,
-          "far": 0.0377,
-          "lift": 2.41,
-          "alert_rate": 0.1039
+          "far": 0.037,
+          "lift": 2.44,
+          "alert_rate": 0.1026
         },
         "totals": {
-          "n_predictions": 77,
+          "n_predictions": 78,
           "n_events": 24,
-          "base_rate": 0.311688
+          "base_rate": 0.307692
         }
       },
       "M5_plus": {
@@ -226,7 +226,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 6,
-          "true_negatives": 71
+          "true_negatives": 72
         },
         "metrics": {
           "precision": 0,
@@ -237,9 +237,9 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 77,
+          "n_predictions": 78,
           "n_events": 6,
-          "base_rate": 0.077922
+          "base_rate": 0.076923
         }
       },
       "X_plus": {
@@ -247,20 +247,20 @@
           "hits": 0,
           "false_alarms": 2,
           "misses": 3,
-          "true_negatives": 72
+          "true_negatives": 73
         },
         "metrics": {
           "precision": 0.0,
           "recall": 0.0,
           "f1_score": 0,
-          "far": 0.027,
+          "far": 0.0267,
           "lift": 0,
-          "alert_rate": 0.026
+          "alert_rate": 0.0256
         },
         "totals": {
-          "n_predictions": 77,
+          "n_predictions": 78,
           "n_events": 3,
-          "base_rate": 0.038961
+          "base_rate": 0.038462
         }
       }
     }
