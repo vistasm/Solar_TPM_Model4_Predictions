@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-14T05:20:21Z",
+    "generated_at": "2026-07-15T05:20:25Z",
     "model_name": "Model 4 (Ranger)",
     "model_version": "v3.0.17",
     "windows": [
@@ -35,9 +35,9 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-07-10"
+      "end": "2026-07-11"
     },
-    "n_days_verified": 123
+    "n_days_verified": 124
   },
   "summary": {
     "M_plus": {
@@ -74,8 +74,8 @@
         "confusion_matrix": {
           "hits": 0,
           "false_alarms": 0,
-          "misses": 2,
-          "true_negatives": 2
+          "misses": 1,
+          "true_negatives": 3
         },
         "metrics": {
           "precision": 0,
@@ -87,8 +87,8 @@
         },
         "totals": {
           "n_predictions": 4,
-          "n_events": 2,
-          "base_rate": 0.5
+          "n_events": 1,
+          "base_rate": 0.25
         }
       },
       "M5_plus": {
