@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-18T05:20:24Z",
+    "generated_at": "2026-07-19T05:20:28Z",
     "model_name": "Model 4 (Ranger)",
     "model_version": "v3.0.17",
     "windows": [
@@ -35,9 +35,9 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-07-14"
+      "end": "2026-07-15"
     },
-    "n_days_verified": 127
+    "n_days_verified": 128
   },
   "summary": {
     "M_plus": {
