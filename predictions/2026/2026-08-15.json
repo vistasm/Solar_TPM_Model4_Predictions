@@ -1,0 +1,16 @@
+{
+  "prediction_date": "2026-08-15",
+  "asof_date": "2026-08-14",
+  "target_date": "2026-08-15",
+  "model_name": "Model 4 (Ranger)",
+  "model_version": "v3.0.17",
+  "status": "FAILED",
+  "failure_reason": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+  "failure_time_utc": "2026-08-15T05:21:22.458057",
+  "prediction_window": {
+    "start": "2026-08-15T06:00:00Z",
+    "end": "2026-08-16T06:00:00Z",
+    "type": "Option C (rolling 06:00 UTC)"
+  },
+  "tiers": {}
+}
