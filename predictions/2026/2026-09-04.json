@@ -1,0 +1,16 @@
+{
+  "prediction_date": "2026-09-04",
+  "asof_date": "2026-09-03",
+  "target_date": "2026-09-04",
+  "model_name": "Model 4 (Ranger)",
+  "model_version": "v3.0.17",
+  "status": "FAILED",
+  "failure_reason": "NRT SHARP returned no records (tried @12h and @1d)",
+  "failure_time_utc": "2026-09-04T05:22:13.640792",
+  "prediction_window": {
+    "start": "2026-09-04T06:00:00Z",
+    "end": "2026-09-05T06:00:00Z",
+    "type": "Option C (rolling 06:00 UTC)"
+  },
+  "tiers": {}
+}
