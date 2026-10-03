@@ -1,0 +1,16 @@
+{
+  "prediction_date": "2026-10-03",
+  "asof_date": "2026-10-02",
+  "target_date": "2026-10-03",
+  "model_name": "Model 4 (Ranger)",
+  "model_version": "v3.0.17",
+  "status": "FAILED",
+  "failure_reason": "Expecting value: line 1 column 1 (char 0)",
+  "failure_time_utc": "2026-10-03T05:20:28.186997",
+  "prediction_window": {
+    "start": "2026-10-03T06:00:00Z",
+    "end": "2026-10-04T06:00:00Z",
+    "type": "Option C (rolling 06:00 UTC)"
+  },
+  "tiers": {}
+}
