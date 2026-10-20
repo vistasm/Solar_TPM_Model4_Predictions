@@ -1,0 +1,16 @@
+{
+  "prediction_date": "2026-10-20",
+  "asof_date": "2026-10-19",
+  "target_date": "2026-10-20",
+  "model_name": "Model 4 (Ranger)",
+  "model_version": "v3.0.17",
+  "status": "FAILED",
+  "failure_reason": "<urlopen error [Errno 101] Network is unreachable>",
+  "failure_time_utc": "2026-10-20T05:20:21.867692",
+  "prediction_window": {
+    "start": "2026-10-20T06:00:00Z",
+    "end": "2026-10-21T06:00:00Z",
+    "type": "Option C (rolling 06:00 UTC)"
+  },
+  "tiers": {}
+}
