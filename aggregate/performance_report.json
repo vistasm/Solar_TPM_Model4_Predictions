@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-11-06T05:20:43Z",
+    "generated_at": "2026-11-07T05:20:25Z",
     "model_name": "Model 4 (Ranger)",
     "model_version": "v3.0.17",
     "windows": [
@@ -35,17 +35,17 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-11-02"
+      "end": "2026-11-03"
     },
-    "n_days_verified": 238
+    "n_days_verified": 239
   },
   "summary": {
     "M_plus": {
-      "precision": 0.4545,
+      "precision": 0.5,
       "recall": 1.0,
-      "f1_score": 0.625,
-      "lift": 2.45,
-      "alert_rate": 0.4074,
+      "f1_score": 0.6667,
+      "lift": 2.7,
+      "alert_rate": 0.3704,
       "n_predictions_30d": 27,
       "n_events_30d": 5
     },
@@ -138,17 +138,17 @@
       "M_plus": {
         "confusion_matrix": {
           "hits": 5,
-          "false_alarms": 6,
+          "false_alarms": 5,
           "misses": 0,
-          "true_negatives": 16
+          "true_negatives": 17
         },
         "metrics": {
-          "precision": 0.4545,
+          "precision": 0.5,
           "recall": 1.0,
-          "f1_score": 0.625,
-          "far": 0.2727,
-          "lift": 2.45,
-          "alert_rate": 0.4074
+          "f1_score": 0.6667,
+          "far": 0.2273,
+          "lift": 2.7,
+          "alert_rate": 0.3704
         },
         "totals": {
           "n_predictions": 27,
